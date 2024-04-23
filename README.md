@@ -80,7 +80,7 @@ JavaScript é uma linguagem de programação usada para adicionar interatividade
 
 * Utilizando condicionais  "if", "else", "if" e "else".
 
-  exemplo
+  exemplo if e else
 
   ```
   if (a>b){
@@ -93,8 +93,57 @@ JavaScript é uma linguagem de programação usada para adicionar interatividade
   ```
   
 *  Criando loops com "for" e "while".
+
+  exemplo for
+
+```
+for (let i = 1; i <= 5; i++) {
+  console.log(i);
+}
+```
+   exemplo while
+   
+```
+let j = 1;
+while (j <= 5) {
+  console.log(j);
+  j++;
+}
+```
 * Utilizando instruções "swhitch".
 
+```
+let diaDaSemana = 3;
+let nomeDoDia;
+
+switch (diaDaSemana) {
+  case 1:
+    nomeDoDia = 'Domingo';
+    break;
+  case 2:
+    nomeDoDia = 'Segunda-feira';
+    break;
+  case 3:
+    nomeDoDia = 'Terça-feira';
+    break;
+  case 4:
+    nomeDoDia = 'Quarta-feira';
+    break;
+  case 5:
+    nomeDoDia = 'Quinta-feira';
+    break;
+  case 6:
+    nomeDoDia = 'Sexta-feira';
+    break;
+  case 7:
+    nomeDoDia = 'Sábado';
+    break;
+  default:
+    nomeDoDia = 'Dia inválido';
+}
+
+console.log('Hoje é ' + nomeDoDia);
+```
 ## Eventos de Manupulação 
 
 Um evento de manipulação em JavaScript é uma ação que ocorre em um elemento HTML, como um clique do mouse, pressionamento de tecla, movimento do mouse, etc. Esses eventos são acionados pelo navegador quando uma interação do usuário ocorre. O JavaScript pode ser usado para "ouvir" esses eventos e responder a eles executando determinado código, como alterar o conteúdo da página, animar elementos, validar formulários, etc.
