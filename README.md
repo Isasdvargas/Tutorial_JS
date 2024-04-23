@@ -35,8 +35,20 @@ JavaScript é uma linguagem de programação usada para adicionar interatividade
 ## Variáveis
 
 1. **var**: Escopo global ou local, pode ser redeclarada e atualizada.
+    ```
+    var num = 42
+    ```
+
 2. **let**: Escopo de bloco, não pode ser redeclarada no mesmo escopo, pode ser atualizada.
+   
+    ```
+    let carro = "Preto"
+    ```
+
 3. **const**: Escopo de bloco, valor constante, não pode ser reatribuída ou redeclarada.
+    ```
+    const nome = "Isadora"
+    ```
 
 ## Tipos de dados 
 
