@@ -36,7 +36,7 @@ JavaScript é uma linguagem de programação usada para adicionar interatividade
 
 1. **var**: Escopo global ou local, pode ser redeclarada e atualizada.
     ```
-    var num = 42
+    var num = 27
     ```
 
 2. **let**: Escopo de bloco, não pode ser redeclarada no mesmo escopo, pode ser atualizada.
@@ -63,15 +63,37 @@ JavaScript é uma linguagem de programação usada para adicionar interatividade
 
 ## Funções
 
-1. Crie funções usando a palavra "Function"
-2. Passagem de parâmetros para as funçôes
-3. Retornando valores com "Return";
+* Crie funções usando a palavra "Function"
+* Passagem de parâmetros para as funçôes
+* Retornando valores com "Return";
+
+  exemplo:
+
+  ```
+  function saudacao{
+  console.log("Olá mundo");
+  return "Saudação feita";
+  }
+  ```
 
 ## Estruturas de Controle
 
-1. Utilizando condicionais  "if", "else", "if" e "else".
-2. Criando loops com "for" e "while".
-3. Utilizando instruções "swhitch".
+* Utilizando condicionais  "if", "else", "if" e "else".
+
+  exemplo
+
+  ```
+  if (a>b){
+      console.log("A é maior que B")
+  }else if (a<b){
+      console.log("B é maior que A")
+  }else{
+      console.log("A é igual a B")
+  }
+  ```
+  
+*  Criando loops com "for" e "while".
+* Utilizando instruções "swhitch".
 
 ## Eventos de Manupulação 
 
